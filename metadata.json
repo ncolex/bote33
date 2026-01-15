@@ -1,0 +1,8 @@
+{
+  "name": "WholesaleFlow - WhatsApp Bot Control Panel",
+  "description": "A comprehensive admin dashboard for managing conversational AI bots for wholesale operations, featuring a visual flow builder, live inbox with human handoff, and advanced analytics.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

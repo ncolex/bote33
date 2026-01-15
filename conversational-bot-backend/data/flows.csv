@@ -1,0 +1,4 @@
+id,name,description,isActive,createdAt,updatedAt
+flow_default,"Default Flow","Flow for handling basic conversations",true,"2026-01-15T00:00:00.000Z","2026-01-15T00:00:00.000Z"
+flow_sales,"Sales Flow","Flow for handling sales inquiries",true,"2026-01-15T00:00:00.000Z","2026-01-15T00:00:00.000Z"
+flow_support,"Support Flow","Flow for handling support tickets",true,"2026-01-15T00:00:00.000Z","2026-01-15T00:00:00.000Z"

@@ -1,0 +1,54 @@
+# Dependency directories
+node_modules/
+
+# Build outputs
+dist/
+coverage/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+.directory
+*.nib
+*.lproj
+.svn/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Temporary folders
+tmp/
+temp/
+
+# Production
+npm-shrinkwrap.json
+*.tgz
+
+# NestJS
+.nyc_output

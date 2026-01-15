@@ -1,0 +1,11 @@
+id,flowId,type,config_text,position_x,position_y,next,createdAt,updatedAt
+node_start,flow_default,start,"Welcome to our service!",100,100,"node_message_1","2026-01-15T00:00:00.000Z","2026-01-15T00:00:00.000Z"
+node_message_1,flow_default,message,"How can I help you today?",300,100,"node_condition_1","2026-01-15T00:00:00.000Z","2026-01-15T00:00:00.000Z"
+node_condition_1,flow_default,condition,"user_input.contains('product')",500,100,"node_product_info","2026-01-15T00:00:00.000Z","2026-01-15T00:00:00.000Z"
+node_product_info,flow_default,message,"We offer premium products at competitive prices.",700,50,"node_end","2026-01-15T00:00:00.000Z","2026-01-15T00:00:00.000Z"
+node_end,flow_default,end,"Thank you for contacting us!",900,100,"","2026-01-15T00:00:00.000Z","2026-01-15T00:00:00.000Z"
+node_start_sales,flow_sales,start,"Welcome to our sales department!",100,100,"node_sales_greeting","2026-01-15T00:00:00.000Z","2026-01-15T00:00:00.000Z"
+node_sales_greeting,flow_sales,message,"How can we assist with your purchase?",300,100,"node_sales_condition","2026-01-15T00:00:00.000Z","2026-01-15T00:00:00.000Z"
+node_sales_condition,flow_sales,condition,"user_input.contains('quote')",500,100,"node_quote","2026-01-15T00:00:00.000Z","2026-01-15T00:00:00.000Z"
+node_quote,flow_sales,message,"I can provide you with a quote for your desired products.",700,50,"node_handoff","2026-01-15T00:00:00.000Z","2026-01-15T00:00:00.000Z"
+node_handoff,flow_sales,handoff,"Transferring to a sales representative...",900,100,"","2026-01-15T00:00:00.000Z","2026-01-15T00:00:00.000Z"

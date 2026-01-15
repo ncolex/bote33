@@ -1,0 +1,8 @@
+id,conversationId,contactId,channelId,direction,sender,content,timestamp
+msg_1,conv_1,contact_1,telegram,in,contact,"Hello, I need information about your products","2026-01-15T00:00:00.000Z"
+msg_2,conv_1,contact_1,telegram,out,bot,"Welcome to our service! How can I help you today?","2026-01-15T00:00:01.000Z"
+msg_3,conv_1,contact_1,telegram,in,contact,"I'm interested in purchasing your premium products","2026-01-15T00:00:02.000Z"
+msg_4,conv_1,contact_1,telegram,out,bot,"We offer premium products at competitive prices.","2026-01-15T00:00:03.000Z"
+msg_5,conv_2,contact_2,telegram,in,contact,"I have a problem with my order","2026-01-15T00:00:00.000Z"
+msg_6,conv_2,contact_2,telegram,out,bot,"Transferring to a human agent...","2026-01-15T00:00:01.000Z"
+msg_7,conv_2,contact_2,telegram,out,human,"Hello, I'm here to help with your order issue. Can you provide more details?","2026-01-15T00:00:02.000Z"

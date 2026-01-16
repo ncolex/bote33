@@ -1,4 +1,4 @@
-import { Injectable, Logger, Inject } from '@nestjs/common';
+import { Injectable, Logger, Inject, forwardRef } from '@nestjs/common';
 import { AirtableService } from '../airtable/airtable.service';
 import { Conversation, Message } from '../types';
 import { RealtimeGateway } from '../realtime/realtime.gateway';
@@ -10,6 +10,7 @@ export class CoreService {
 
   constructor(
     private readonly airtableService: AirtableService,
+    @Inject(forwardRef(() => FlowEngineService))
     private readonly flowEngineService: FlowEngineService,
     @Inject(RealtimeGateway) private readonly realtimeGateway: RealtimeGateway,
   ) {}

@@ -4,7 +4,7 @@ import { Injectable } from '@nestjs/common';
 export class ConfigService {
   // Airtable configuration
   get airtableApiKey(): string {
-    return process.env.AIRTABLE_API_KEY || '';
+    return process.env.AIRTABLE_ACCESS_TOKEN || '';
   }
 
   get airtableBaseId(): string {
@@ -27,7 +27,7 @@ export class ConfigService {
 
   // Validate required environment variables
   validate(): void {
-    const requiredVars = ['AIRTABLE_API_KEY', 'AIRTABLE_BASE_ID'];
+    const requiredVars = ['AIRTABLE_ACCESS_TOKEN', 'AIRTABLE_BASE_ID'];
     const missingVars = requiredVars.filter(varName => !process.env[varName]);
     
     if (missingVars.length > 0) {
